@@ -4,8 +4,8 @@ import joblib
 import streamlit as st
 
 #load model and encoder
-model = joblib.load('models/antibiotic_model.pkl')
-encoder = joblib.load('models/antibiotic_encoder.pkl')
+model = joblib.load('antibiotic_model.pkl')
+encoder = joblib.load('antibiotic_encoder.pkl')
 
 #sidebar
 name = "AIToolForge Technology"
