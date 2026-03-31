@@ -13,9 +13,9 @@ goal = "To detects weather patient is resistant to antibiotics or not."
 st.sidebar.title("ABOUT US!")
 st.sidebar.caption(f"Developer: {name}.")
 st.sidebar.title("CONTACT CEO...")
-st.sidebar.link_button("Facebook","https://facebook.com/sadeeq.ahjinuwa")
-st.sidebar.link_button("email", 'sadiqinuwa6@gmail.com')
-st.sidebar.link_button("WhatsApp", 'https://wa.me/2347067717477')
+st.sidebar.link_button("Facebook","https://www.facebook.com/sadeeq.ahjinuwa")
+st.sidebar.link_button("email",'mailto:sadiqinuwa6@gmail.com')
+st.sidebar.link_button("WhatsApp",'https://wa.me/2347067717477')
 st.title("ANTIBIOTICS RESISTANCE")
 st.caption(f"GOAL: {goal}")
 #converting to streamlit
@@ -43,6 +43,6 @@ if st.button("Make Detection"):
     predicted_data = encoder.transform(real_data)
 
     prediction = model.predict(predicted_data)
-    st.success("The Patient Is Resistant To Antibiotics" if prediction == 1 else "The Patient Is Not Resistant To Antibiotics")
+    st.success("Resistant" if prediction == 1 else "Non-resistant")
 
 
