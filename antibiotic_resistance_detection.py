@@ -13,7 +13,7 @@ goal = "To detects weather patient is resistant to antibiotics or not."
 st.sidebar.title("ABOUT US!")
 st.sidebar.caption(f"Developer: {name}.")
 st.sidebar.title("CONTACT CEO...")
-st.sidebar.link_button("Facebook","https://www.facebook.com/sadeeq.ahjinuwa")
+st.sidebar.link_button("facebook", 'https://www.facebook.com/sadeeq.alhinuwa')
 st.sidebar.link_button("email",'mailto:sadiqinuwa6@gmail.com')
 st.sidebar.link_button("WhatsApp",'https://wa.me/2347067717477')
 st.title("ANTIBIOTICS RESISTANCE")
